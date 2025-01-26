@@ -2,7 +2,7 @@
 const themeSwitch = document.getElementById("themeSwitch");
 const dynamicText = document.getElementById("dynamic-text");
 
-// تبديل الألوان بين الوضع الليلي والنهاري
+//* تبديل الألوان بين الوضع الليلي والنهاري
 themeSwitch.addEventListener("change", function () {
   if (themeSwitch.checked) {
     // الوضع النهاري
@@ -38,8 +38,7 @@ function typeWriter(elementId, text, speed) {
   }
   typing();
 }
-
-// تشغيل التأثير الأول عند تحميل الصفحة
+//* تشغيل التأثير الأول عند تحميل الصفحة
 window.onload = function () {
   typeWriter("dynamic-text", text1, typingSpeed);
 };
